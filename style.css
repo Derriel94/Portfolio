@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bangers', cursive;
+	list-style: none;
+	text-decoration: none;
+	color: #D9B08C;
+	
+}
+
+/*NAV WITH HOVERABLE DROPDOWN*/
+.sticky {
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 20px; 	
+
+}
+.dropbtn { 
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content .drpdown-link {
+  display: none; 
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ /* z-index: 1;*/
+}
+
+.dropdown-content  a {
+	padding: 12px 16px;
+  	display: block;
+}
+
+.drpdown-link a:hover {background-color: white;}
+
+.nav:hover .dropdown-content .drpdown-link {display: block;}
+
+.nav:hover .dropbtn {background-color: white;}
+
+.nav a {
+	
+	color: inherit; /*so hyperlink (a) will be the color you chose*/
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+.active {
+	text-decoration: underline;
+}
+
+/*NAV ENDING*/
+
+
+span {
+	font-weight: 400; 
+}
+
+.brand-wrapper {
+	text-align: center;
+	padding-bottom: 20px;
+	transition: transform 1s;
+	
+}
+.brand-wrapper:hover {
+	transform: scale(1.5);
+}
+.banner {
+	/*This is the banner element 
+	it is used to show the big middle
+	"hero_image"*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:linear-gradient(rgba(255, 203, 154,.2), rgba(255, 238, 221,.5)), url("images/5.jpg");
+	height: 50vh;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border: 3px solid #D9B08C;
+  	border-radius: 25px;
+	/*#FFCB9A*/
+
+}
+.banner_text {
+	/*This is the text of the banner
+	it is used for the middle 
+	Button of the banner*/
+	border: 2px solid #D9B08C;
+	text-align: center;
+    transition: transform 1s;
+    
+}
+.banner_text:hover {
+	transform: scale(1.5);
+}
+.banner_text a {
+	color: #D9B08C;
+	padding: 8px;
+}
+.txt {
+	color: #D9B08C;
+}
+.txt h1{
+	text-align: center;
+	
+	font-size: 2.5rem;
+	padding: 40px;
+	transition: transform 1s;
+}
+.txt h1:hover {
+	transform: scale(1.5);
+}
+.txt p{
+	color: black;
+	text-align: center;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 100px;
+
+}
+.cont {
+	height: .5rem;
+}
+
+.cont_wrap {
+	/*height: 100%;*/
+	border-top: 3px solid #D9B08C;
+	border-bottom: 3px solid #D9B08C;
+	
+}
+.projects_wrap {
+	border-top: 3px solid #D9B08C;
+	border-bottom: 3px solid #D9B08C;
+	text-align: center;
+	padding-top: 20px;
+	color: #D9B08C;
+}
+.projects {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.proj-item {
+	padding-top: 20px;
+	transition: transform .5s;
+}
+.proj-item:hover {
+	opacity: 0.5;
+	transform: scale(1.1);
+
+}
+.proj-item h3 {
+	padding: 20px;
+}
+
+.proj-item img {
+	width: 250px;
+	height: 250px;
+	
+}
+
+.my-img {
+	margin-top:20px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #D9B08C;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+
+
