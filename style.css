@@ -1,20 +1,23 @@
-*{
+html,
+body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Bangers', cursive;
 	list-style: none;
 	text-decoration: none;
-	color: #D9B08C;
-	
+	color: #D9B08C;	
 }
-
+button h1 {
+	color: #D9B08C;
+	font-family: 'Bangers', cursive;
+}
 /*NAV WITH HOVERABLE DROPDOWN*/
 .nav-wrapper {
 	position: sticky;
 	top: 0;
 	width: 100%;
 }
-.nav {
+nav {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -42,15 +45,15 @@
 
 .drpdown-link a:hover {background-color: white;}
 
-.nav:hover .dropdown-content .drpdown-link {display: block;}
+nav:hover .dropdown-content .drpdown-link {display: block;}
 
-.nav:hover .dropbtn {background-color: white;}
+nav:hover .dropbtn {background-color: white;}
 
-.nav a {
+nav a {
 	
 	color: inherit; /*so hyperlink (a) will be the color you chose*/
 }
-.nav a:hover {
+nav a:hover {
 	text-decoration: underline;
 }
 .active {
@@ -147,8 +150,9 @@ span {
 .projects {
 	margin-top: 20px;
 	margin-bottom: 100px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .proj-item {
 	padding-top: 20px;
@@ -168,11 +172,15 @@ span {
 	height: 250px;
 	
 }
+.proj-item-text {
+	text-align: center;
+	width: 250px;
+}
 
 .my-img {
 	margin-top:20px;
-	width: 100px;
-	height: 100px;
+	width: 250px;
+	height: 250px;
 	border: 1px solid #D9B08C;
 }
 
