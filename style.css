@@ -2,6 +2,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
 	font-family: 'Bangers', cursive;
 	list-style: none;
 	text-decoration: none;
@@ -159,20 +161,15 @@ span {
 	transition: transform .5s;
 }
 .proj-item:hover {
-	opacity: 0.5;
 	transform: scale(1.1);
 
 }
-.proj-item h3 {
-	padding: 20px;
-}
-
 .proj-item img {
 	width: 250px;
 	height: 250px;
 	
 }
-.proj-item-text {
+.proj-itemText {
 	text-align: center;
 	width: 250px;
 }
@@ -187,8 +184,11 @@ span {
 footer {
 	text-align: center;
 	padding: 20px;
-		list-style: none;
+	list-style: none;
 }
 
-
-
+.url {
+	color: orange;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
