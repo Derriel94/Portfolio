@@ -4,19 +4,17 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	font-family: 'Bangers', cursive;
-	list-style: none;
-	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
 	color: #D9B08C;	
 }
 button h1 {
 	color: #D9B08C;
-	font-family: 'Bangers', cursive;
 }
 /*NAV WITH HOVERABLE DROPDOWN*/
 .nav-wrapper {
-	position: sticky;
-	top: 0;
+/*	position: sticky;
+	top: 0;*/
 	width: 100%;
 }
 nav {
@@ -63,11 +61,6 @@ nav a:hover {
 }
 
 /*NAV ENDING*/
-
-
-span {
-	font-weight: 400; 
-}
 
 .brand-wrapper {
 	text-align: center;
@@ -142,7 +135,7 @@ span {
 	border-bottom: 3px solid #D9B08C;
 	
 }
-.projects_wrap {
+.projects-container {
 	border-top: 3px solid #D9B08C;
 	border-bottom: 3px solid #D9B08C;
 	text-align: center;
@@ -168,10 +161,6 @@ span {
 	width: 250px;
 	height: 250px;
 	
-}
-.proj-itemText {
-	text-align: center;
-	width: 250px;
 }
 
 .my-img {

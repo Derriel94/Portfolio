@@ -2,7 +2,7 @@ const projItem = document.getElementById('proj-item');
 
 
 
-const projects: [
+const projects = [
   {
     id: '0',
     projectName: 'GhostCode Website!',
