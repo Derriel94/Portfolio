@@ -151,16 +151,19 @@ nav a:hover {
 }
 .proj-item {
 	padding-top: 20px;
-	transition: transform .5s;
+	width: 250px;
 }
-.proj-item:hover {
-	transform: scale(1.1);
 
-}
 .proj-item img {
 	width: 250px;
 	height: 250px;
+	transition: transform .5s;
 	
+}
+.proj-item img:hover {
+	transform: scale(1.1);
+	opacity: .8;
+
 }
 
 .my-img {
