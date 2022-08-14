@@ -7,6 +7,7 @@ body {
 	text-align: center;
 	font-size: 24px;
 	color: #D9B08C;	
+
 }
 button h1 {
 	color: #D9B08C;
@@ -16,6 +17,7 @@ button h1 {
 /*	position: sticky;
 	top: 0;*/
 	width: 100%;
+
 }
 nav {
 	display: flex;
@@ -157,13 +159,7 @@ nav a:hover {
 .proj-item img {
 	width: 250px;
 	height: 250px;
-	transition: transform .5s;
 	
-}
-.proj-item img:hover {
-	transform: scale(1.1);
-	opacity: .8;
-
 }
 
 .my-img {
