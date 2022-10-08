@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { render } from "react-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
 	
@@ -7,20 +9,29 @@ const Home = () => {
 	return (
       <div className="home">
       	<div className="topOfPage">
-	      	<div className="clearBox">
+	      	<motion.div 
+	     		className="clearBox"
+	     		animate={{ x:100 , scale: 1}}
+	     		initial={{ x: 0 , scale: 0}}
+	     		>
 	      		<div className="leftSide">
-	      		  Hi. I am Web-Developer from Killeen Tx.
+	      		 <p> Hi. I am Web-Developer from Killeen Tx.
 	      		  I use Javascript to create incrediably efficent websites that are
 	      		  beautiful or ("whatever the client wants, beauty is a spectrum :)").
 	      		  I invite you to take a look at some of my work and my journey.
 	      		  If you would like to hire me for work. Hit the contact button to 
 	      		  for my contact information!
+	      		</p>
 	      		</div>	
 	      		<div>
 	      		  <Link to="/contact"className="neonText" style={{background: "blue", borderRadius: "10px"}}>Contact Me!</Link>
 	      		</div>
-	      	</div> 
-	     	<div className="rightSide svgBack">
+	      	</motion.div> 
+	     	<motion.div 
+	     		className="rightSide svgBack"
+	     		animate={{ x:100 , scale: 1}}
+	     		initial={{ x: 0 , scale: 0}}
+	     		>
 	      		<h1 className="neonText">My Favorite Tools</h1>	      		
 	      		<ul>
 	      			<li>Javascript</li>
@@ -34,7 +45,7 @@ const Home = () => {
 	      				<li>Authentication</li>
 	      			</ul>	
 	      		</ul>
-	      	</div>
+	      	</motion.div>
       	</div>
       	<h1 className="neonText" style={{marginTop: "100px"}}>Rates and Gigs...</h1>
       	<div className="bottomOfPage">
