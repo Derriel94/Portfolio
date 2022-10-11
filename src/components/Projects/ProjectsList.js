@@ -17,7 +17,7 @@ const ProjectsList = {
     to create a server to handle the React request to the database.`
   },
   {
-    id: '1',
+    id: '2',
     projectName: 'Playlist Component!',
     projectUrl: 'https://jammingderriel.surge.sh/',
     imgUrl: '/jamming.PNG',

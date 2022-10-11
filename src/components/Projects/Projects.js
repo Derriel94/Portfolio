@@ -6,14 +6,14 @@ import './Projects.css'
 const Projects = () => {
 	return (
 		<div className="projects">
-				{ProjectsList.projects.map((project)=>{
-					return (<div className="project">
-							<a href={project.projectUrl} target="_blank" rel="noreferrer" className="neonText">
-								<h2>{project.projectName}</h2>
-								<img src={process.env.PUBLIC_URL + project.imgUrl} alt="Project"/>
+				{ProjectsList.projects.map(({ project, id, projectUrl, projectName, desc, imgUrl } )=>{
+					return (<div className="project" key={id}>
+							<a href={projectUrl} target="_blank" rel="noreferrer" className="neonText">
+								<h2>{projectName}</h2>
+								<img src={process.env.PUBLIC_URL + imgUrl} alt="Project"/>
 						   	</a>
 						   		<div className="projectDesc">
-						   			{project.desc}
+						   			{desc}
 						   		</div>
 						   </div>);	
 				})}       	   	
