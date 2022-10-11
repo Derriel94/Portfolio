@@ -86,12 +86,12 @@ body {
   margin-top: 10vh;
   opacity: 1;
   /*animation-name: fadeInOpacity;*/
-  animation-iteration-count: 1;
+/*  animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 2s;
+  animation-duration: 2s;*/
 }
 
-@keyframes fadeInOpacity {
+/*@keyframes fadeInOpacity {
   from {
     opacity: 0;
   }
@@ -99,7 +99,7 @@ body {
     opacity: 1;
   }
 }
-
+*/
 .rightSide {
   margin-left: auto;
   margin-right: auto;
@@ -123,14 +123,14 @@ ul {
   background-position: left center;
   background-size: 40px;
  /* animation-name: slideIn;*/
-  animation-iteration-count: 1;
+/*  animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 900ms;
+  animation-duration: 900ms;*/
 
 }
 
 
-@keyframes slideIn {
+/*@keyframes slideIn {
   from {
     margin-left: 500px;
     opacity: 0;
@@ -141,7 +141,7 @@ ul {
     opacity: 1;
   
   }
-}
+}*/
 .bottomOfPage {
   display: flex;
   flex-wrap: wrap;
@@ -190,10 +190,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
+  /*animation-name: fadeInOpacity;*/
+/*  animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 2s;
+  animation-duration: 2s;*/
 }
 .contactContainer {
 
