@@ -9,6 +9,7 @@ body {
   list-style: none;
   color: black;
   min-height: 100vh;
+  background-color: rgba(135, 206, 250, 6.0);
 }
 .App {
  font-family:  "Courier New", Courier, monospace;
@@ -66,6 +67,7 @@ body {
 .topOfPage {
   display: flex;
   flex-wrap: wrap;
+  justify-content:  space-around;
 
 }
 
@@ -241,8 +243,18 @@ ul {
   }
 }
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: .8rem;
+  .topOfPage  {
+    width: 100vw;
+  }
+  .clearBox, .aboutMe {
+    font-size: smaller;
+    width:  100%;
+    margin-left:  auto;
+    margin-right:   auto;
+  }
+  .leftSide {
+    margin-top: 0px;
+   
   }
   div > .navLink{
     font-size: 1.5rem;

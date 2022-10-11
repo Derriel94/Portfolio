@@ -3,14 +3,14 @@ const ProjectsList = {
   {
     id: '0',
     projectName: 'GhostCode Website!',
-    projectUrl: 'https://ghost-code.herokuapp.com/',
+    projectUrl: 'https://derrielcollins.site',
     imgUrl: '/ghostcodeimg.PNG',
     desc: "This is a react Project and my Portfolio"
   },
   {
     id: '1',
     projectName: 'SuperiorMinds Blog!',
-    projectUrl: 'https://github.com/Derriel94/Ravenous-repo',
+    projectUrl: 'https://superiormindsblog.herokuapp.com/',
     imgUrl: '/blogex.PNG',
     desc: `This is Full-Stack Blog project that uses React to 
     fetch blog data from the MySQL Database. I use Node.js

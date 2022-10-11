@@ -9,11 +9,7 @@ const Home = () => {
 	return (
       <div className="home">
       	<div className="topOfPage">
-	      	<motion.div 
-	     		className="clearBox"
-	     		animate={{ x:100 , scale: 1}}
-	     		initial={{ x: 0 , scale: 0}}
-	     		>
+	      	<div className="clearBox">
 	      		<div className="leftSide">
 	      		 <p> Hi. I am Web-Developer from Killeen Tx.
 	      		  I use Javascript to create incrediably efficent websites that are
@@ -26,12 +22,8 @@ const Home = () => {
 	      		<div>
 	      		  <Link to="/contact"className="neonText" style={{background: "blue", borderRadius: "10px"}}>Contact Me!</Link>
 	      		</div>
-	      	</motion.div> 
-	     	<motion.div 
-	     		className="rightSide svgBack"
-	     		animate={{ x:100 , scale: 1}}
-	     		initial={{ x: 0 , scale: 0}}
-	     		>
+	      	</div> 
+	     	<div className="rightSid">
 	      		<h1 className="neonText">My Favorite Tools</h1>	      		
 	      		<ul>
 	      			<li>Javascript</li>
@@ -45,14 +37,14 @@ const Home = () => {
 	      				<li>Authentication</li>
 	      			</ul>	
 	      		</ul>
-	      	</motion.div>
+	      	</div>
       	</div>
       	<h1 className="neonText" style={{marginTop: "100px"}}>Rates and Gigs...</h1>
       	<div className="bottomOfPage">
       		<div>
-      			<h2 className="neonText">35.00 Per Hour (Negotiable)</h2>
+      			<h2 className="neonText">100 to 250 Dollars per Order</h2>
       		</div>
-      		<div className="svgBack">
+      		<div className="">
       			<a href="https://www.fiverr.com/derrielcollins?public_mode=true" target="_blank" rel="noreferrer" className="neonText"><h2>Fiver Gigs</h2></a>
       				<ul>
       					<li><a href="https://www.fiverr.com/share/yxK69G" target="_blank" rel="noreferrer" className="neonText">Simple Website Gig</a></li>
