@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter ,Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar.js';
 import Home from './components/Home/Home.js';
 import AboutMe from './components/AboutMe/AboutMe.js'
@@ -10,6 +10,7 @@ import ContactCard from './components/ContactCard/ContactCard.js';
 const App = () => {
 
   return (
+    <BrowserRouter>
     <div className="App">
       <Navbar />
       <Routes>
@@ -32,6 +33,7 @@ const App = () => {
       </div>
       <div className="spacer"></div>
     </div>
+    </BrowserRouter>
     );
 
 }
