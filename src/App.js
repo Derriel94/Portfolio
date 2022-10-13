@@ -19,8 +19,8 @@ const App = () => {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/contact" element={<ContactCard />} />
       </Routes>
-      
-      <div className="footer">
+              <div className="spacer" style={{width: "100vw"}}></div>
+      <div className="footer" style={{paddingBottom: "20px"}}>
         <a href="https://www.facebook.com/profile.php?id=100080613782116" target="_blank" rel="noreferrer" className="navLink">
           <img src="./fb.png" alt="facebook" />
         </a>
@@ -32,6 +32,16 @@ const App = () => {
         </a>
       </div>
       <div className="spacer"></div>
+      <Navbar />
+      <div className="derrielcollins">
+        <p>
+          Copywright 2022©
+          This website was Created by:
+        </p>
+        <a href="https://derrielcollins.site" target="_blank"  rel="noopener noreferrer">
+          Derriel Collins
+        </a>
+      </div>
     </div>
     </BrowserRouter>
     );

@@ -7,14 +7,17 @@ const Navbar = ( ) => {
 	return (
 		<div className="nav-bar">
 			<div id="white" className="neonText">
-				<Link id="white" className="navLink glow" to="/">Derriel Collins: Full-Stack Developer</Link>
+				<Link id="white" className="navLink" to="/">Full-Stack Developer Health and Wellness Writer</Link>
 			</div>
 			<div>
-				<Link id="white" className="navLink glow" to="/projects">Projects</Link>
+				<Link id="white" className="navLink" to="/projects">Projects</Link>
 			</div>
 			<div>
 				<Link id="white" className="navLink" to="/aboutme">My Journey</Link>
 			</div>
+				<div>
+	      		  <Link id="white" to="/contact"className="navLink">Contact Me!</Link>
+	      		</div>
 		</div>
 		);
 

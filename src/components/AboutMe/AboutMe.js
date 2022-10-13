@@ -3,9 +3,9 @@ import React from 'react';
 const AboutMe = () => {
 
 	return (
-		<div>
-			<h1 className="neonText">My Coding Journey</h1>
-				<div className="aboutMe">I have spent most of my life playing with computers
+		<div className="aboutMe">
+			<h1 className="neonText" style={{color: "purple"}}>My Coding Journey</h1>
+				<div style={{color: "purple"}}>I have spent most of my life playing with computers
 				whether I was playing sims, rollecoster tycoon or even toon town,
 				I always ended up with the same ending thought process...How in the hell
 				do they do this. That mindset has never left me. After highschool just like

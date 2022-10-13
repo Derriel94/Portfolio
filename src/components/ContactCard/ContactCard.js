@@ -13,6 +13,7 @@ const ContactCard = () => {
 				<p className="lh-copy measure center f6 black-70">GitHub: github.com/derriel94</p>
 			</div>
 			</div>
+			
 		</div>
 		);
 }
