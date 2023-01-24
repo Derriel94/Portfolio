@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { render } from "react-dom";
-import { motion } from "framer-motion";
 
 const Home = () => {
 	
@@ -11,13 +8,13 @@ const Home = () => {
 	      		<div className="topOfPage">
 	      		<div className="leftSide">
 	      			<h1 style={{color: "purple"}}>Most Recent eBook!</h1>
-	      			<img src="./Better.SleepEbook.png" 
+	      			<img alt="DerrielCollins" src="./Better.SleepEbook.png" 
 	      				style={{height: "400px",
 	      				 		width: "200px",
 	      				 		border: "black 1px solid",
 	      				 		borderRadius: "20px",
 	      				 		}}/>
-    				<Link id="white" style={{color: "purple"}} className="navLink" to="/projects">Subscribe For Free Version!</Link>
+    				<a id="white" style={{color: "purple"}} className="navLink" href="https://mailchi.mp/d75a74e0ae81/betterlife">Subscribe for Free Version!</a>
 	      		</div>
 	      		<div className="rightSide clearBox">
 	      			 <p> Hi. I am Web-Developer and Health and Wellness Coach from Killeen Tx.
