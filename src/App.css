@@ -35,7 +35,7 @@ body {
   border-radius: 20px;
 }
 .nav-bar #white:hover {
-  color: #dba73f;
+ color:rgba(87,82,97, .5);
   text-decoration: underline;
 }
 #white:hover {
@@ -266,9 +266,6 @@ ul {
     margin-left:  auto;
     margin-right:   auto;
   }
-  .leftSide > img {
-  margin-left: 100px;
-}
   .leftSide {
     margin-top: 0px;
    
