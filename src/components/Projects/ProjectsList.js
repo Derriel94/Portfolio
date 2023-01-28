@@ -1,37 +1,33 @@
 const ProjectsList = {
 	projects: [
   {
-    id: '0',
-    projectName: 'GhostCode Website!',
-    projectUrl: 'https://derrielcollins.site',
-    imgUrl: '/ghostcodeimg.PNG',
-    desc: "This is a react Project and my Portfolio"
-  },
-  {
-    id: '1',
+    id: 1,
     projectName: 'SuperiorMinds Blog!',
     projectUrl: 'https://superiormindsblog.herokuapp.com/',
     imgUrl: '/blogex.PNG',
-    desc: `This is Full-Stack Blog project that uses React to 
-    fetch blog data from the MySQL Database. I use Node.js
-    to create a server to handle the React request to the database.`
+    desc: `(Down for migration!)This is a blog/Portfolio for a writer/voice artist.(react/node/mysql)`
   },
   {
-    id: '2',
+    id: 2,
     projectName: 'Playlist Component!',
     projectUrl: 'https://jammingderriel.surge.sh/',
     imgUrl: '/jamming.PNG',
-    desc: `This is a practice project that uses React to 
-    make request to the spotify api to create playlist and save them
-    to my spotify profile.`
+    desc: `Use spotify to login and create Playlist from anywhere!(react)`
   },
   {
-    id: '3',
+    id: 3,
     projectName: 'TFCWEB!',
     projectUrl: 'http://www.tfcweb.org/',
     imgUrl: '/TFC.PNG',
-    desc: "This is website I created for a church with HTML/CSS and vanilla JS."
+    desc: "Transforming Foundation Church!(html/css/js/mailchimp)"
   },
+  {
+    id: 4,
+    projectName: 'Blue Trident Blog',
+    projectUrl: 'https://simpleblog-5802e.web.app/',
+    imgUrl: '/bluetridentthumb.PNG',
+    desc: "A ocean blog with an interactive social community acheived through google services.(react/firebase)"
+  }
 	]
 };
 

@@ -10,6 +10,7 @@
 .project {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .project img{
 	width: 250px;

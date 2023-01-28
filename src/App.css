@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   list-style: none;
   min-height: 100vh;
-  background-color: #dba73f;
+  background-color: orange;
    color: lightskyblue;
 }
 .App {
@@ -73,14 +73,15 @@ body {
   flex-wrap: wrap; 
   justify-content: space-around;
    margin-bottom: 20px;
+
 }
 .leftSide {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 60px;
 }
 .leftSide > img {
-  margin-left: 140px;
   margin-bottom: 20px;
 }
 .leftSide > Link {
@@ -90,7 +91,7 @@ body {
 
 .clearBox {
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, .8);
+   color: lightskyblue;
   background-color: purple;
   border: black 1px solid;
   border-radius: 10px;  
@@ -131,7 +132,7 @@ ul {
   background: purple;
   border: black solid 1px;
   border-radius: 20px;
-  color: black;
+   color: lightskyblue;
   list-style: none;
   padding: 10px 30px;
   background-image: url("./../public/arrow.svg");
@@ -197,8 +198,8 @@ ul {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, .8);
-  background-color: rgba(255, 255, 255, .4);
+   color: lightskyblue;
+  background-color: rgba(255, 255, 255);
   border: ghostwhite 2px solid;
   border-radius: 10px;  
   margin-top: 10vh;

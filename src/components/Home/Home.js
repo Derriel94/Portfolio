@@ -14,7 +14,7 @@ const Home = () => {
 	      				 		border: "black 1px solid",
 	      				 		borderRadius: "20px",
 	      				 		}}/>
-    				<a id="white" style={{color: "purple"}} className="navLink" href="https://mailchi.mp/d75a74e0ae81/betterlife">Subscribe for Free Version!</a>
+    				<a id="white" style={{color: "purple"}} className="navLink" rel="noreferrer" target="_blank" href="https://mailchi.mp/d75a74e0ae81/betterlife">Subscribe for Free Version!</a>
 	      		</div>
 	      		<div className="rightSide clearBox">
 	      			 <p> Hi. I am Web-Developer and Health and Wellness Coach from Killeen Tx.
@@ -57,8 +57,8 @@ const Home = () => {
       		<div className="">
       			<a href="https://www.fiverr.com/derrielcollins?public_mode=true" target="_blank" rel="noreferrer" className="neonText"><h2>Fiver Gigs</h2></a>
       				<ul>
-      					<li><a href="https://www.fiverr.com/share/yxK69G" target="_blank" rel="noreferrer" className="neonText">Simple Website Gig</a></li>
-      					<li><a href="https://www.fiverr.com/share/V0x2El" target="_blank" rel="noreferrer" className="neonText">Website Debugger</a></li>
+      					<li><a href="https://www.fiverr.com/share/yxK69G" target="_blank" rel="noreferrer" className="neonText" style={{ color: 'lightskyblue'}}>Simple Website Gig</a></li>
+      					<li><a href="https://www.fiverr.com/share/V0x2El" target="_blank" rel="noreferrer" className="neonText" style={{ color: 'lightskyblue'}}>Website Debugger</a></li>
       				</ul>
       		</div>
       	</div>
