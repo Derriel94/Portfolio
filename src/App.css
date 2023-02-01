@@ -1,6 +1,6 @@
 body {
-  width: 100vw;
-  height: 100vh;
+/*  width: 100vw;*/
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,13 +35,13 @@ body {
   border-radius: 20px;
 }
 .nav-bar #white:hover {
- color:rgba(87,82,97, .5);
+ color: lightskyblue;
   text-decoration: underline;
 }
-#white:hover {
+/*#white:hover {
   color: lightskyblue;
   text-decoration: underline;
-}
+}*/
 .navLink {
   text-decoration: none;
   font-size:  2rem;
@@ -60,8 +60,8 @@ body {
 }
 .nav-bar > div> .navLink {
  color: lightskyblue;
-  margin: 5px;
-  padding: 5px;
+ /* margin: 5px;
+  padding: 5px;*/
 }
 /* HOME COMPONENT */
 
@@ -91,7 +91,7 @@ body {
 
 .clearBox {
   font-size: 1.2rem;
-   color: lightskyblue;
+  color: lightskyblue;
   background-color: purple;
   border: black 1px solid;
   border-radius: 10px;  
@@ -188,7 +188,7 @@ ul {
   background-color: rgba(255, 255, 255, .4);
   border: ghostwhite 2px solid;
   border-radius: 10px;  
-  width: 700px;
+/*  width: 700px;*/
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
@@ -198,12 +198,12 @@ ul {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-   color: lightskyblue;
+  color: lightskyblue;
   background-color: rgba(255, 255, 255);
   border: ghostwhite 2px solid;
   border-radius: 10px;  
   margin-top: 10vh;
-  width: 450px;
+/*  width: 450px;*/
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
@@ -230,14 +230,14 @@ ul {
 .spacer {
   background-color: lightskyblue;
   height: 50px;
-  border: ghostwhite ridge 10px;
+  border: ghostwhite ridge 5px;
 
 }
 .footer {
   padding-top: 40px;
   background-color: purple;
   height: 200px;
-  width: 100vw;
+/*  width: 100vw;*/
 }
 .footer > a {
   padding: 10px;
@@ -257,10 +257,11 @@ ul {
     width: 100vw;
   }
   .aboutMe {
-    width: 350px;
+    
+    font-size: smaller;
   }
 
-  .clearBox, .aboutMe {
+  .clearBox {
     font-size: smaller;
     width:  100%;
     margin-left:  auto;
@@ -284,4 +285,14 @@ ul {
 .derrielcollins {
   background-color: white;
   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutMe {
+    width: 700px;
+    font-size: smaller;
+  }
+  .contactCard {
+    width:  350px;
+  } 
 }

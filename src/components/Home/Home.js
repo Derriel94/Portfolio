@@ -1,23 +1,35 @@
 import React from 'react';
-
+import ProjectsList from './../Projects/ProjectsList.js';
 const Home = () => {
 	
 
+
 	return (
       <div className="home">     
-	      		<div className="topOfPage">
+	      	<div className="topOfPage">
 	      		<div className="leftSide">
-	      			<h1 style={{color: "purple"}}>Most Recent eBook!</h1>
-	      			<img alt="DerrielCollins" src="./Better.SleepEbook.png" 
-	      				style={{height: "400px",
-	      				 		width: "200px",
+	      			{ProjectsList.projects[0]	
+	      			?
+	      			<div>
+	      			<div><h1 style={{color: "purple"}}>Most Recent Project</h1></div>
+	      			<div><h2 style={{color: "purple"}}>{ProjectsList.projects[ProjectsList.projects.length - 1].projectName}</h2></div>
+	      			<div><img alt="DerrielCollins" src={ProjectsList.projects[ProjectsList.projects.length - 1].imgUrl}
+	      				style={{height: "350px",
+	      				 		width: "350px",
 	      				 		border: "black 1px solid",
 	      				 		borderRadius: "20px",
-	      				 		}}/>
-    				<a id="white" style={{color: "purple"}} className="navLink" rel="noreferrer" target="_blank" href="https://mailchi.mp/d75a74e0ae81/betterlife">Subscribe for Free Version!</a>
+	      				 		}}/></div>
+    				<div><a id="white" style={{color: "purple"}} className="navLink"rel="noreferrer" target="_blank" href={ProjectsList.projects[ProjectsList.projects.length - 1].projectUrl}>Try it Out!</a></div>
+    				</div>
+    				:
+    				<div><h1>Server Down!</h1></div>
+
+
+	      		}
 	      		</div>
+	      		
 	      		<div className="rightSide clearBox">
-	      			 <p> Hi. I am Web-Developer and Health and Wellness Coach from Killeen Tx.
+	      		<div><p> Hi. I am Web-Developer and Health and Wellness Coach from Killeen Tx.
 	      		  I write eBooks in my spare time talking about my research and what I have learned
 	      		  in my time about Health and Happiness. 
 	      		  I use Javascript to create incrediably efficent websites that are
@@ -25,12 +37,11 @@ const Home = () => {
 	      		  I invite you to take a look at some of my work and my journey.
 	      		  If you would like to hire me for work. Hit the contact button to 
 	      		  for my contact information!
-	      		</p>
+	      				</p></div>
 	      		</div>
-	      		<div>
-	      		</div>
-	      		</div>
-	   		<div className="spacer" style={{width: "100vw"}}></div>
+	     
+	      	</div>
+	   		<div className="spacer"></div>
 	     	<div className="midOfPage">
 	      		<h1 className="neonText">My Favorite Tools</h1>	      		
 	      		<ul>
@@ -48,7 +59,7 @@ const Home = () => {
 	      			</ul>	
 	      		</ul>	 
       	</div>
-      		   		<div className="spacer" style={{width: "100vw"}}></div>
+      		   		<div className="spacer"></div>
       	<h1 className="neonText" style={{marginTop: "100px"}}>Rates and Gigs...</h1>
       	<div className="bottomOfPage">
       		<div>

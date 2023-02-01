@@ -3,9 +3,9 @@ const ProjectsList = {
   {
     id: 1,
     projectName: 'SuperiorMinds Blog!',
-    projectUrl: 'https://superiormindsblog.herokuapp.com/',
+    projectUrl: 'https://superiormindsblog.web.app/',
     imgUrl: '/blogex.PNG',
-    desc: `(Down for migration!)This is a blog/Portfolio for a writer/voice artist.(react/node/mysql)`
+    desc: `This is a blog/Portfolio for a writer/voice artist.(react/node/mysql)`
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const ProjectsList = {
   {
     id: 3,
     projectName: 'TFCWEB!',
-    projectUrl: 'http://www.tfcweb.org/',
+    projectUrl: 'https://www.tfcweb.org/',
     imgUrl: '/TFC.PNG',
     desc: "Transforming Foundation Church!(html/css/js/mailchimp)"
   },

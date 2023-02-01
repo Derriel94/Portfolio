@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/contact" element={<ContactCard />} />
       </Routes>
-              <div className="spacer" style={{width: "100vw"}}></div>
+              <div className="spacer"></div>
       <div className="footer" style={{paddingBottom: "20px"}}>
         <a href="https://www.facebook.com/profile.php?id=100080613782116" target="_blank" rel="noreferrer" className="navLink">
           <img src="./fb.png" alt="facebook" />
