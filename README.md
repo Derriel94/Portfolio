@@ -1,7 +1,4 @@
--This Site will home as my current site to bring in clients
--This Site uses create react app because it is the cleanest and quickest way, to get the desired product
--This project uses componenst such as Tachyons, particles, and good ole flex box to accomplish its goals.
--This project is a react based project and will most likley be deployed with aws or heroku, I am not sure on hosting in general. TARGET DATE(2/25/22)
+-React and firebase hosting
 
 
 
